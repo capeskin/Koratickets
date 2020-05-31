@@ -1,0 +1,32 @@
+{
+  "name": "KoraProjects",
+  "version": "1.0.0",
+  "description": "Open-Source, lightweight Discord ticket bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capeskin/Koratickets"
+  },
+  "keywords": [
+    "Discord",
+    "Ticket",
+    "Bot",
+    "Eris"
+  ],
+  "author": "Capeskin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capeskin/Koratickets/issues"
+  },
+  "homepage": "https://github.com/capeskin/Koratickets#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "dateformat": "^3.0.3",
+    "eris": "^0.8.6",
+    "express": "^4.16.3",
+    "rethinkdbdash": "^2.3.31"
+  }
+}
